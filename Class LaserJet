@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrinterWindows
+{
+    public class LaserJet : Aprinter
+    {
+        public override void display()
+        {
+            Console.WriteLine("LaserJet display dimension : 12*12");
+            Console.WriteLine("LaserJet printer printing....");
+        }
+    }
+}
