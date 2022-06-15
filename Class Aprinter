@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrinterWindows
+{
+    public class Aprinter
+    {
+        public string Name { get; set; }
+        public virtual void display()
+        {
+            Console.WriteLine(" ");
+        }
+
+        internal void Show()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Print()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
