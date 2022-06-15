@@ -1,0 +1,18 @@
+using PrinterWindows;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PrinterWIndows
+{
+    public class Epson : Aprinter
+    {
+        public override void display()
+        {
+            Console.WriteLine("Epson display dimension : 10*11");
+            Console.WriteLine("Epson printer printing....");
+        }
+    }
+}
